@@ -1,0 +1,10 @@
+// Best practice:
+// For a good separation of concerns, don't rely on the DOM element names,
+// but on dedicated CSS selectors to identify all elements
+.test {
+    background-color: grey;
+}
+.test__title{
+    color: blue;
+}
+.test__item{}
